@@ -1,0 +1,23 @@
+{
+    "best_model_name": "MLP Without Fuzzy",
+    "best_input_type": "original",
+    "threshold": 0.5,
+    "target_mapping": {
+        "neutral or dissatisfied": 0,
+        "satisfied": 1
+    },
+    "metrics_mlp_without_fuzzy": {
+        "Model": "MLP Without Fuzzy",
+        "Accuracy": 0.9255081613797351,
+        "Precision": 0.9253369272237196,
+        "Recall": 0.9031833727966324,
+        "F1 Score": 0.9141259486087072
+    },
+    "metrics_mlp_with_fuzzy": {
+        "Model": "MLP With Fuzzy",
+        "Accuracy": 0.9255466584539574,
+        "Precision": 0.9289662045845791,
+        "Recall": 0.8991493466631588,
+        "F1 Score": 0.9138146167557932
+    }
+}
